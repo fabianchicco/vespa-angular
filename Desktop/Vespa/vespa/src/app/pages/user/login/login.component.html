@@ -1,0 +1,23 @@
+<div class="fondo container">
+  <div class="cuadro">
+    <h1>Sección para Socios</h1>
+    <hr />
+    <input
+      [(ngModel)]="user"
+      class="item"
+      type="text"
+      name="username"
+      id="username"
+      placeholder="Nombre de Usuario"
+    />
+    <input
+      [(ngModel)]="pass"
+      class="item"
+      type="password"
+      name="pass"
+      id="pass"
+      placeholder="Contraseña"
+    />
+    <button (click)="login()" class="item btn">Iniciar Sesión</button>
+  </div>
+</div>

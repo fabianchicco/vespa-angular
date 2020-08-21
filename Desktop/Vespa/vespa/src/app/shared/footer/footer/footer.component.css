@@ -1,0 +1,49 @@
+.site-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: "roboto condensed", sans-serif;
+  color: whitesmoke;
+  background-color: #5b8085;
+}
+
+.site-footer h3 {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.site-footer p {
+  margin-left: 1rem;
+  text-align: justify;
+  line-height: normal;
+}
+
+.site-footer a {
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.redes nav {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 3rem;
+}
+
+.redes nav a {
+  font-size: 3rem;
+  color: whitesmoke;
+}
+
+.foot {
+  background-color: #315b61;
+  width: 100%;
+  grid-column: 1/4;
+}
+
+.foot p {
+  text-align: center;
+  margin: 3px;
+}

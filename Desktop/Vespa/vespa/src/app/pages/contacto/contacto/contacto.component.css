@@ -1,0 +1,31 @@
+h1 {
+  font-family: "roboto condensed", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: "roboto condensed", sans-serif;
+  flex-direction: column;
+  width: 50rem;
+}
+
+.formulario input,
+.formulario textarea {
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  border: 1px solid gray;
+  min-height: 2rem;
+}
+
+.boton {
+  width: 5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 2px solid gray;
+}

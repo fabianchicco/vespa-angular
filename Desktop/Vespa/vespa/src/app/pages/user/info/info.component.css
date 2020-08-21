@@ -1,0 +1,24 @@
+h1 {
+  font-family: "roboto condensed", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.btn {
+  font-family: "roboto condensed", sans-serif;
+  background-color: #5b8085;
+  width: 161px;
+  height: 2rem;
+  border-radius: 6px;
+  border: solid 1px #315b61;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+}

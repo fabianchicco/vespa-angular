@@ -1,0 +1,41 @@
+.fondo {
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+}
+hr {
+  width: 100%;
+}
+h1 {
+  margin-bottom: 1rem;
+}
+.cuadro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cuadro h1 {
+  font-family: "roboto condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.item {
+  font-family: "roboto condensed", sans-serif;
+  margin: 3px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+.btn {
+  background-color: #5b8085;
+  width: 161px;
+  border-radius: 6px;
+  border: solid 1px #315b61;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+}

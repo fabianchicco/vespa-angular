@@ -1,0 +1,12 @@
+.contenedor {
+  width: 85%;
+}
+.map-container {
+  width: 90%;
+  height: 40rem;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+}
